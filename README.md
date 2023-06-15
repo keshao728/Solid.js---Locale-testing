@@ -1,3 +1,5 @@
+Link: [https://stackblitz.com/github/solidjs/templates/tree/master/ts?file=src%2FApp.tsx](https://stackblitz.com/edit/github-iecb65?file=src%2Findex.tsx)
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
