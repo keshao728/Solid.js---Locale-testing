@@ -6,11 +6,11 @@ import {
 } from '@solid-primitives/i18n';
 
 import enTranslations from './locales/en/translation.json';
-import cnTranslations from './locales/cn/translation.json';
+import znTranslations from './locales/zn/translation.json';
 
 const dict = {
   en: enTranslations,
-  cn: cnTranslations,
+  zn: znTranslations,
 };
 
 const App: Component = () => {
@@ -18,7 +18,7 @@ const App: Component = () => {
 
   return (
     <>
-      <button onClick={() => locale('cn')}>cn</button>
+      <button onClick={() => locale('zn')}>zn</button>
       <button onClick={() => locale('en')}>en</button>
       <hr />
       <h1>{t('hello')}!</h1>
